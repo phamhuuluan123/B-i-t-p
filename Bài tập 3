@@ -1,0 +1,14 @@
+def  tinhgiaithua ( n ):
+    giai_thua  =  1 ;
+    if ( n  ==  0  hoặc  n  ==  1 ):
+        return  giai_thua ;
+    khác :
+        cho  tôi  trong  phạm vi ( 2 , n  +  1 ):
+            giai_thua  =  giai_thua  *  i ;
+        return  giai_thua ;
+n  =  int ( input ( "Giai thừa n =" ));
+nếu  n  <=  0 :
+ print ( "Import lại" )
+khác :
+   print ( "Giai thừa của" , n , "là" , tinhgiaithua ( n ));
+© 2021 GitHub, Inc.
