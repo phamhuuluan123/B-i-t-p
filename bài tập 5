@@ -1,0 +1,43 @@
+1. git init 
+This is a command to you start up a git repository rỗng at the current folder.
+Về căn bản, khi chạy lệnh này, một mực .git và các liên kết con mục 
+will be create at the current directory.
+
+2. git clone <url>
+git clone cũng là một command rất thông dụng để bắt đầu với git. 
+Other with git init is start a git repository for current directory 
+at, git clone will clone 1 repository đã được tạo sẵn về thư 
+của bạn. This kho lưu trữ sẽ được xác định ở tham số của git clone.
+
+3. trạng thái git
+This command is allow we to get the basic information of the current of as:
+Nhánh có được cập nhật
+Có gì cần kéo / đẩy / cam kết hay không?
+Có tập tin nào đã được phân giai đoạn, không được phân giai đoạn hay chưa được đánh dấu không?
+Có tập tin mới được tạo / sửa / xóa hay không?
+
+4. git add <files>
+Khi chúng tôi thực hiện thay đổi trong kho lưu trữ (thêm / xóa / sửa tệp) 
+this thay đổi chỉ được thực hiện ở địa phương.
+ Đế thêm những thay đổi này vào kho lưu trữ, chúng ta cần sử dụng lệnh git add
+
+5. git cam kết
+Khi chúng ta hoàn thành 1 nhiệm vụ hoặc xử lý xong 1 vấn đề nào đó, chúng ta cần lưu
+lại những gì mình đã làm. git cam kết có tác dụng ghi lại sự thay đổi này vào kho lưu trữ.
+This is same as they we create 1 checkpoint in too the work and can may 
+quay lại điểm kiểm tra này bất cứ lúc nào.
+Chúng tôi cũng cần một đoạn ngắn thông báo để mô tả hoặc giải thích những gì chúng tôi cam kết
+
+6. git push
+Sau khi cam kết những thay đổi, kho lưu trữ đã được cập nhật nhưng chỉ ở địa phương,
+chúng tôi cần gửi những thay đổi này lên máy chủ từ xa. Việc làm này sẽ được thực hiện
+current by git push
+
+7. git pull
+git pull có tác dụng cập nhật những thay đổi trên kho lưu trữ từ xa về cục bộ.
+Nó là sự kết hợp của 2 lệnh git fetch và git merge. Cụ thể là khi kéo, chúng 
+ta cập nhật từ kho lưu trữ từ xa (git fetch) và đồng thời áp dụng những thay đổi
+ newest to local (git merge)
+
+8. git từ xa
+Tác dụng: Để kiểm tra điều khiển từ xa / nguồn bạn có hoặc thêm thêm điều khiển từ xa
