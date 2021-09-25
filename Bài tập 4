@@ -1,0 +1,9 @@
+  def  totalDigitsOfNumber ( n ):
+    tổng  =  0 ;
+    trong khi ( n  >  0 ):
+        tổng  =  tổng  +  n  %  10 ;
+        n  =  int ( n  /  10 );
+     tổng trở lại ;
+n  =  int ( input ( "Nhập số nguyên dương n =" ));
+print ( "Tổng số chữ của" , n , "là" , totalDigitsOfNumber ( n ));
+© 2021 GitHub, Inc.
